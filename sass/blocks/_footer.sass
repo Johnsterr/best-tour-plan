@@ -1,0 +1,136 @@
+.footer
+  background-color: $dark
+  color: $light
+  padding-top: 108px
+  padding-bottom: 46px
+  &-wrapper
+    display: grid
+    grid-template-columns: repeat(4, minmax(min-content, 1fr))
+    grid-gap: 20px
+    grid-auto-rows: minmax(40px, min-content)
+    align-items: start
+    margin-bottom: 92px
+  &__logo
+    width: 152px
+    grid-row: 1 / 3
+    align-self: stretch
+    margin-top: 15px
+  &__categories
+    grid-row: 1 / 4
+  &__social
+    &-links
+      display: flex
+      align-items: center
+      min-width: 83px
+      justify-content: space-between
+    &-network
+      display: flex
+      align-items: start
+      grid-row: 2 / 4
+      grid-column: span 2
+      margin-top: 3px
+      margin-left: 5px
+  &__contact
+    &-details
+      grid-column: span 2
+      margin-top: 11px
+      margin-left: -5px
+    &-form
+      grid-column: span 2
+      margin-left: 3px
+  &__form
+    display: flex
+    align-items: center
+    justify-content: space-between
+    flex-wrap: wrap
+  &__ul
+    padding: 0 0 0 3px
+    margin: 0
+  &__title
+    font-style: normal
+    font-weight: bold
+    font-size: 18px
+    line-height: 23px
+    margin: 0 0 17px 0
+    text-transform: uppercase
+    &--inline
+      margin: 0 43px 0 0
+    &--mb-3
+      margin-bottom: 27px
+    &--mb-4
+      margin-bottom: 33px
+  &__item
+    display: flex
+    align-items: flex-start
+    font-style: normal
+    font-weight: normal
+    font-size: 14px
+    line-height: 160%
+    color: $footer-text-color
+    &--mb-2
+      margin-bottom: 20px
+  &__icon
+    &-wrapper
+      min-width: 40px
+  &__text
+    font-style: normal
+    font-weight: normal
+    font-size: 14px
+    color: $footer-text-color
+    margin-bottom: 22px
+  &__input
+    width: 100%
+    font-style: normal
+    font-weight: normal
+    font-size: 12px
+    line-height: 15px
+    &-group
+      margin-bottom: 15px
+      flex-basis: 47%
+      &-wrapper
+        width: 100%
+        display: flex
+        justify-content: space-between
+  &__message
+    min-height: 123px
+    flex-basis: 100%
+    margin-bottom: 23px
+    font-style: normal
+    font-weight: normal
+    font-size: 12px
+    line-height: 15px
+  &__send
+    display: flex
+    justify-content: space-between
+    width: 100%
+    align-items: center
+  &__info
+    font-style: normal
+    font-weight: bold
+    font-size: 12px
+    line-height: 15px
+    color: #E0E0E0
+  &__wrapper
+    &-info
+      display: flex
+      justify-content: flex-end
+  &__info
+    &-pay
+      display: flex
+      justify-content: space-between
+      width: 702px
+  &__conditions
+    display: flex
+    justify-content: space-between
+    width: 290px
+    align-items: end
+    font-style: normal
+    font-weight: normal
+    font-size: 12px
+    line-height: 15px
+  &__pay
+    width: 136px
+  &__legal
+    justify-self: end
+    margin-right: 8px
+  
