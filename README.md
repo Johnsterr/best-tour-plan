@@ -1,6 +1,6 @@
 # Best Tour Plan
 
-Web Start cource project (Glo Academy)
+Web Start cource project
 
 ### Design
 
